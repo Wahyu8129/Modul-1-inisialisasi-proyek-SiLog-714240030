@@ -37,6 +37,12 @@ flutter run -d windows
 
 Skrip pengujian logika dan model OOP dapat dijalankan langsung menggunakan Dart SDK melalui terminal:
 
+#### Modul 05 — Pemrograman Berorientasi Objek Lanjut
+Menguji abstraksi `LayananPengiriman`, mixin `Terlacak` & `Terasuransi`, polimorfisme moda transportasi (`PengirimanTruk`, `PengirimanKeretaApi`, `PengirimanKapal`, `PengirimanUdara`):
+```bash
+dart run latihan/modul05_uji.dart
+```
+
 #### Modul 04 — Pemrograman Berorientasi Objek Dasar
 Menguji model `Barang`, `Gudang`, `Pengiriman`, dan `Pelanggan` (termasuk validasi status dan kapasitas):
 ```bash
