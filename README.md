@@ -37,6 +37,19 @@ flutter run -d windows
 
 Skrip pengujian logika dan model OOP dapat dijalankan langsung menggunakan Dart SDK melalui terminal:
 
+#### Modul 06 — Pembangunan Antarmuka Berbasis Widget (Flutter)
+Menguji dan menjalankan UI aplikasi SiLog berbasis Flutter Material 3 (Layar Daftar Pengiriman, Layar Detail Pengiriman, TabBar filtering, Card Ringkasan, dan Kartu Pengiriman):
+```bash
+# Menjalankan di Chrome
+flutter run -d chrome
+
+# Menjalankan widget test UI Modul 06
+flutter test
+
+# Menjalankan analisis kode
+flutter analyze
+```
+
 #### Modul 05 — Pemrograman Berorientasi Objek Lanjut
 Menguji abstraksi `LayananPengiriman`, mixin `Terlacak` & `Terasuransi`, polimorfisme moda transportasi (`PengirimanTruk`, `PengirimanKeretaApi`, `PengirimanKapal`, `PengirimanUdara`):
 ```bash
